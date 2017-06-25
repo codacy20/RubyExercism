@@ -1,18 +1,21 @@
-# Hello World
+# Raindrops
 
-The classical introductory exercise. Just say "Hello, World!".
+Convert a number to a string, the contents of which depend on the number's factors.
 
-["Hello, World!"](http://en.wikipedia.org/wiki/%22Hello,_world!%22_program) is
-the traditional first program for beginning programming in a new language
-or environment.
+- If the number has 3 as a factor, output 'Pling'.
+- If the number has 5 as a factor, output 'Plang'.
+- If the number has 7 as a factor, output 'Plong'.
+- If the number does not have 3, 5, or 7 as a factor,
+  just pass the number's digits straight through.
 
-The objectives are simple:
+## Examples
 
-- Write a function that returns the string "Hello, World!".
-- Run the test suite and make sure that it succeeds.
-- Submit your solution and check it at the website.
-
-If everything goes well, you will be ready to fetch your first real exercise.
+- 28's factors are 1, 2, 4, **7**, 14, 28.
+  - In raindrop-speak, this would be a simple "Plong".
+- 30's factors are 1, 2, **3**, **5**, 6, 10, 15, 30.
+  - In raindrop-speak, this would be a "PlingPlang".
+- 34 has four factors: 1, 2, 17, and 34.
+  - In raindrop-speak, this would be "34".
 
 * * * *
 
@@ -45,7 +48,7 @@ run it like this:
 
 ## Source
 
-This is an exercise to introduce users to using Exercism [http://en.wikipedia.org/wiki/%22Hello,_world!%22_program](http://en.wikipedia.org/wiki/%22Hello,_world!%22_program)
+A variation on a famous interview question intended to weed out potential candidates. [http://jumpstartlab.com](http://jumpstartlab.com)
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.

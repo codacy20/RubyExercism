@@ -1,18 +1,22 @@
-# Hello World
+# Rna Transcription
 
-The classical introductory exercise. Just say "Hello, World!".
+Given a DNA strand, return its RNA complement (per RNA transcription).
 
-["Hello, World!"](http://en.wikipedia.org/wiki/%22Hello,_world!%22_program) is
-the traditional first program for beginning programming in a new language
-or environment.
+Both DNA and RNA strands are a sequence of nucleotides.
 
-The objectives are simple:
+The four nucleotides found in DNA are adenine (**A**), cytosine (**C**),
+guanine (**G**) and thymine (**T**).
 
-- Write a function that returns the string "Hello, World!".
-- Run the test suite and make sure that it succeeds.
-- Submit your solution and check it at the website.
+The four nucleotides found in RNA are adenine (**A**), cytosine (**C**),
+guanine (**G**) and uracil (**U**).
 
-If everything goes well, you will be ready to fetch your first real exercise.
+Given a DNA strand, its transcribed RNA strand is formed by replacing
+each nucleotide with its complement:
+
+* `G` -> `C`
+* `C` -> `G`
+* `T` -> `A`
+* `A` -> `U`
 
 * * * *
 
@@ -45,7 +49,7 @@ run it like this:
 
 ## Source
 
-This is an exercise to introduce users to using Exercism [http://en.wikipedia.org/wiki/%22Hello,_world!%22_program](http://en.wikipedia.org/wiki/%22Hello,_world!%22_program)
+Rosalind [http://rosalind.info/problems/rna](http://rosalind.info/problems/rna)
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
